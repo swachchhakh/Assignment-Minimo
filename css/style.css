@@ -1,0 +1,176 @@
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header{
+	background-color: #F0F0F0;
+	overflow: hidden;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+.logo{
+	width: 20%;
+	float: left;
+
+	
+}
+.logo img{
+
+margin: 14px;
+}
+.menu{
+
+overflow: hidden;
+}
+.menu ul {
+    list-style-type: none;
+    float: right;
+}
+.menu ul li{display: inline-block;margin: 5px;padding: 0 40px;}
+.menu li a{
+	    text-decoration: none;
+	    color:black;
+}
+.menu li a:hover{
+	color: white;
+    font-size: x-large;
+    box-shadow: 5px -3px 10px 0px #796c6c91;
+    padding: 10px;
+    border-radius: 10px;
+    background: darkslategrey;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+
+}
+.banner{}
+.banner img{
+	width: 100%;
+}
+.description{
+    padding: 54px;
+}
+.description h5{}
+.description h1{}
+.description p{}
+textarea{
+	border: none;
+ 
+    border-color: #f0f8ff52;
+    box-sizing: border-box;
+    width: -webkit-fill-available;
+}
+.blog-section{
+	
+overflow: hidden;
+	
+padding-top: 30px;
+	
+padding-bottom: 30px;
+}
+.blog .content{
+	width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+form{
+	   padding-top: 30px;
+	   padding-bottom: 30px;
+}
+.content img{
+   
+width: 100%;
+}
+.content h5{
+	text-align: left;
+}
+.content h1{
+	text-align: left;
+}
+.content p{
+	text-align: left;
+
+}
+
+.signup{
+	text-align: center;
+	background-color: #E0E0E0;
+	padding: 30px;
+}
+.signup i{
+
+position: relative;
+
+right: 25px;
+
+color: grey;
+}
+
+input[type="text"]{
+
+border: none;
+
+box-sizing: border-box;
+
+border-bottom: 1px solid #ccc9c9;
+
+width: 38%;
+
+font-size: 18px;
+
+padding-left: 5px;
+
+background-color: #E0E0E0;
+
+padding-bottom: 7px;
+}
+.button{
+	text-align: center;
+	border: solid #dcd9d9;
+	text-decoration: none;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.button a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+.footer{
+	background-color: #E0E0E0;
+	overflow: hidden;
+	
+}
+.right{
+	width: 50%;
+	float: left;
+}
+.right ul{
+	list-style: none;
+}
+.right ul li{
+	display: inline-block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.right .left{
+	
+margin-left: 199px;
+box-sizing: border-box;
+}
+
